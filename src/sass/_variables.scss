@@ -3,8 +3,9 @@
 
 
 $sp_orange : #ffb03b ;
+$brown     : #1e160d;
 
-$color : ("sp-orange":$sp-orange);
+$color : ("sp-orange":$sp-orange , "brown": $brown);
 
 $theme-colors: map-merge($color , $theme-colors);
 
