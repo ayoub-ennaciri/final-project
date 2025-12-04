@@ -14247,6 +14247,15 @@ textarea.form-control-lg {
   filter: brightness(50%);
 }
 
+.play {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1vw;
+  height: 1vw;
+  padding: 6%;
+}
+
 .icons {
   padding: 1vh 1vw;
 }

@@ -105,3 +105,15 @@
 .sitem {
   filter: brightness(50%);
 }
+
+// *vedio
+
+.play   
+{
+     top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    width: 1vw;
+    height: 1vw;
+    padding: 7%;
+}
