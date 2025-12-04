@@ -76,6 +76,16 @@
 {
     display: none;
 }
+
+// * check menu
+
+.card:hover
+{
+    background-color: #ffb03b;
+    color: white !important;
+}
+
+
 @media (max-width:991px) {
 
     .menu
@@ -88,3 +98,4 @@
     
     
 }
+
