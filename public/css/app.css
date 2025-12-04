@@ -14243,6 +14243,10 @@ textarea.form-control-lg {
     grid-template-columns: 1fr;
   }
 }
+.sitem {
+  filter: brightness(50%);
+}
+
 .icons {
   padding: 1vh 1vw;
 }
