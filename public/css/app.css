@@ -14175,6 +14175,69 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1vw;
+}
+
+.menuitem {
+  display: flex;
+  margin-left: 2vw;
+  gap: 3vh;
+}
+.menuitem a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.menuitem div img {
+  width: 7vw;
+  border-radius: 50%;
+  border: 10px #ececec solid;
+}
+.menuitem div div {
+  display: flex;
+}
+.menuitem .price {
+  color: #ffb03b;
+  font-weight: 800;
+}
+
+.radio {
+  display: none;
+}
+
+.menuTypes {
+  display: flex;
+  gap: 2vw;
+}
+
+.glow:hover {
+  color: #ffb03b !important;
+}
+
+#starters:checked ~ .starter {
+  display: none;
+}
+
+#salads:checked ~ .salad {
+  display: none;
+}
+
+#special:checked ~ .speciali {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .menu {
+    grid-template-columns: 1fr;
+  }
+}
 .icons {
   padding: 1vh 1vw;
 }
