@@ -14334,6 +14334,33 @@ header {
   color: #ffb03b !important;
 }
 
+.header-burger-button {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .header-burger-button {
+    display: flex;
+    font-size: larger;
+  }
+  .bottom-header-right {
+    display: none;
+  }
+  #burger:checked ~ .bottom-header-right {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    color: black !important;
+    height: 75vh;
+    width: 90vw;
+    padding: 3vw;
+    top: 10%;
+    flex-direction: column;
+  }
+  .bottom-header-left-link > a {
+    color: black !important;
+  }
+}
 .satisfy-regular {
   font-family: "Satisfy", cursive;
 }

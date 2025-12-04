@@ -93,27 +93,33 @@
       <!-- *bottom header -->
       <div class="bottom-header d-flex align-items-center ">
         <a class="bottom-header-left satisfy-regular text-sp-orange fs-3">Delicious</a>
-        <div class="d-none header-burger-button"><i class="bi bi-list"></i></div>
+        <input class="d-none " type="checkbox" id="burger">
+        <label for="burger">
+          <div class=" header-burger-button"><i class="bi bi-list"></i></div>
+        </label>
         <nav class="bottom-header-right">
-          <div class="bottom-header-left-link">
+          <label for="burger">
+            <i class="d-flex d-lg-none fs-3 bi bi-x-lg"></i>
+          </label>
+          <div class="text-black  bottom-header-left-link">
             <a href="#" class="">Home</a>
           </div>
-          <div class="bottom-header-left-link">
+          <div class="text-black  bottom-header-left-link">
             <a href="#" class="">About</a>
           </div>
-          <div class="bottom-header-left-link">
+          <div class="text-black  bottom-header-left-link">
             <a href="#" class="">Menu</a>
           </div>
-          <div class="bottom-header-left-link">
+          <div class="text-black  bottom-header-left-link">
             <a href="#" class="">Specials</a>
           </div>
-          <div class="bottom-header-left-link">
+          <div class="text-black  bottom-header-left-link">
             <a href="#" class="">Event</a>
           </div>
-          <div class="bottom-header-left-link">
+          <div class="text-black  bottom-header-left-link">
             <a href="#" class="">Chefs</a>
           </div>
-          <div class="bottom-header-left-link">
+          <div class="text-black  bottom-header-left-link">
             <a href="#" class="">Gallery</a>
           </div>
 
@@ -347,7 +353,7 @@
             <div class="">
               <a href="#" class="glow">Crabe Cake</a>
               <div class="">
-                ..........................................................................
+               ..............................................................
                 <span class="price">$7.95</span>
               </div>
             </div>
@@ -365,7 +371,7 @@
             <div class="">
               <a href="#" class="glow">Tsucan Grilled</a>
               <div class="">
-                .....................................................................<span
+                ..........................................................<span
                   class="price"
                   >$9.95</span
                 >
@@ -385,7 +391,7 @@
             <div class="">
               <a href="#" class="glow">Greek Salad</a>
               <div class="">
-                .............................................................<span
+                ............................................<span
                   class="price"
                   >$9.95</span
                 >
@@ -404,7 +410,7 @@
             <div class="">
               <a href="#" class="glow">Lobster Roll</a>
               <div class="">
-                ...............................................................................
+  ......................................................
                 <span class="price">$6.95</span>
               </div>
             </div>
@@ -421,7 +427,7 @@
             <div class="">
               <a href="#" class="glow">Bread-Barrel</a>
               <div class="">
-                ......................................................................<span
+                .......................................................<span
                   class="price"
                   >$8.95</span
                 >
@@ -438,7 +444,7 @@
             <div class="">
               <a href="#" class="glow">Ceasar Sections</a>
               <div class="">
-                ....................................................................
+                ..................................................
                 <span class="price">$4.95</span>
               </div>
             </div>
@@ -453,7 +459,7 @@
             <div class="">
               <a href="#" class="glow">Mozzarella Stick</a>
               <div class="">
-                ....................................................................
+                ......................................................
                 <span class="price">$9.95</span>
               </div>
             </div>
@@ -468,7 +474,7 @@
             <div class="">
               <a href="#" class="glow">Spanich salad</a>
               <div class="">
-                .............................................................<span
+                .............................................<span
                   class="price"
                   >$12.95</span
                 >
@@ -876,9 +882,9 @@
     <footer
       class="bg-brown d-flex justify-content-center flex-column align-items-center text-light"
     >
-      <div class="container border-bottom border-sp-orange row gap-1 small">
+      <div class="container align-items-center py-2 justify-content-center  border-bottom border-sp-orange row gap-1 small">
 
-        <div class="col-lg-6 col-sm-6 d-flex gap-1">
+        <div class="col-lg-2 col-md-4 d-flex gap-1">
             <div class="text-sp-orange fs-4">
               <i class="bi bi-geo-alt icon"></i>
             </div>
@@ -891,7 +897,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6 col-sm-6 d-flex gap-1">
+        <div class="col-lg-2 col-md-4 d-flex gap-1">
             <div class="text-sp-orange fs-4">
               <i class="bi bi-telephone icon"></i>
             </div>
@@ -904,7 +910,7 @@
             </div>
         </div>
         
-        <div class="col-lg-6 col-sm-6 d-flex gap-1">
+        <div class="col-lg-2 col-md-4 d-flex gap-1">
             <div class="text-sp-orange fs-4">
               <i class="bi bi-clock icon"></i>
             </div>
@@ -917,25 +923,25 @@
             </div>
         </div>
         
-        <div class="col-lg-6 col-sm-6 gap-0">
-          <div class="satisfy-regular">Follow Us</div>
-            <div class="d-flex gap-1">
-              <div class="rounded-circle icons d-flex justify-content-center align-items-center border">
-                <i class="bi bi-twitter-x"></i>
-              </div>
-              <div class="rounded-circle icons d-flex justify-content-center align-items-center border">
-                <i class="bi bi-facebook"></i>
-              </div>
-              <div class="rounded-circle icons d-flex justify-content-center align-items-center border">
-                <i class="bi bi-instagram"></i>
-              </div>
-              <div class="rounded-circle icons d-flex justify-content-center align-items-center border">
-                <i class="bi bi-linkedin"></i>
-              </div>
-          </div>
+        <div class="col-lg-2 col-md-4 gap-0">
+            <div class="satisfy-regular">Follow Us</div>
+              <div class="d-flex gap-1">
+                <div class="rounded-circle icons d-flex justify-content-center align-items-center border">
+                  <i class="bi bi-twitter-x"></i>
+                </div>
+                <div class="rounded-circle icons d-flex justify-content-center align-items-center border">
+                  <i class="bi bi-facebook"></i>
+                </div>
+                <div class="rounded-circle icons d-flex justify-content-center align-items-center border">
+                  <i class="bi bi-instagram"></i>
+                </div>
+                <div class="rounded-circle icons d-flex justify-content-center align-items-center border">
+                  <i class="bi bi-linkedin"></i>
+                </div>
+            </div>
         </div>
       </div>
-      <div class="d-flex align-items-center justify-content-center flex-column">
+      <div class="d-flex align-items-center justify-content-center py-2 flex-column">
         <div class="">© Copyright Delicious All Rights Reserved</div>
         <div class="">Designed by BootstrapMade</div>
       </div>
