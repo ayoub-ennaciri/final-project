@@ -14415,6 +14415,10 @@ header {
   padding: 7%;
 }
 
+section {
+  padding-bottom: 10vh;
+}
+
 .icons {
   padding: 1vh 1vw;
 }
