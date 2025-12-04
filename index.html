@@ -68,7 +68,9 @@
 </nav>
     </header> -->
 
-     <header class=" bg-opacity-50 bg-black">
+      
+    
+    <header class=" bg-opacity-50 bg-black">
       <!-- *top header -->
       <div class="top-header bg-  opacity-75">
         <!-- *top header left -->
@@ -139,7 +141,7 @@
       </div>
     </header>
 <!-- *hero carousel -->
-     <section class="vh-100">
+     <section id="hero" class="vh-100">
         <div id="carouselExampleIndicators" class="vh-100 carousel slide carousel-fade "   data-bs-ride="carousel" >
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -264,12 +266,10 @@
 
     <!-- *why us -->
     <section class="d-flex container flex-column align-items-center">
-      <p
-        class="rounded-pill fw-semibold text-sp-orange bg-sp-orange fw-semiboldm-10 w-7 d-flex justify-content-center bg-opacity-25"
-      >
+      <div class="my-1 rounded-pill fw-semibold text-sp-orange bg-sp-orange fw-semiboldm-10 px-1 d-flex justify-content-center bg-opacity-25">
         Why Us
-      </p>
-      <p class="display-6 text-center satisfy-regular">
+      </div>
+      <p class="my-1 display-6 text-center satisfy-regular">
         Why choose <span class="text-sp-orange">Our Restaurant</span>
       </p>
       <div class="row d-flex justify-content-center gap-2 align-items-center">
@@ -341,9 +341,9 @@
                 ...........................................................<span
                   class="price"
                   >$5.95</span
-                >
+                  >
+                </div>
               </div>
-            </div>
             <div class="">Lorem, deren, trataro, filede, nerada</div>
           </div>
         </div>
@@ -563,17 +563,17 @@
        Book a  <span class="text-sp-orange">Table</span>
       </p>
         <div class="row align-items-center">
-            <div class="col-sm-4 vh-80">
+            <div class="col-lg-4 vh-80">
                 <img class="w-100 h-100" src="./public/images/reservation.jpg" alt="">
             </div>
-            <div class="col-sm-8 position-relative  align-items-center justify-content-center">
+            <div class="col-lg-8 position-relative  align-items-center justify-content-center">
                 <div class="row w-100 p-0  ">
-                    <div class="col-12 col-sm-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="text" placeholder="Your Name"></div>
-                    <div class="col-12 col-sm-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="email" placeholder="Your Email"></div>
-                    <div class="col-12 col-sm-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="number" placeholder="Your phone"></div>
-                    <div class="col-12 col-sm-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="date" placeholder=""></div>
-                    <div class="col-12 col-sm-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="time" placeholder=""></div>
-                    <div class="col-12 col-sm-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="number" placeholder="#of people"></div>
+                    <div class="col-12 col-lg-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="text" placeholder="Your Name"></div>
+                    <div class="col-12 col-lg-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="email" placeholder="Your Email"></div>
+                    <div class="col-12 col-lg-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="number" placeholder="Your phone"></div>
+                    <div class="col-12 col-lg-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="date" placeholder=""></div>
+                    <div class="col-12 col-lg-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="time" placeholder=""></div>
+                    <div class="col-12 col-lg-4 p-0 py-1   "><input  class="border-0  w-100 vh-7 " type="number" placeholder="#of people"></div>
                     <textarea class="w-100 min-vh-20 border-0" name="" id=""></textarea>
                     <div class="d-flex justify-content-center mt-1">
                     <button class="border-0 py-1 px-4  rounded bg-sp-orange text-light ">Book a table</button>
@@ -948,4 +948,5 @@
     </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
+              <a href="#hero" class="position-fixed bg-sp-orange fs-2 text-light  bottom-10 end-10 border-0  rounded-2  z-3"><i class="bi bi-arrow-up"></i></a>
 </html>
